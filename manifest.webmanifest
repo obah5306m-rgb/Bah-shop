@@ -1,0 +1,12 @@
+{
+  "name": "BAH BUSINESS",
+  "short_name": "BAH BUSINESS",
+  "description": "Gestion simple de votre activité en FCFA",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7f8",
+  "theme_color": "#0b6b4f",
+  "icons": []
+}
