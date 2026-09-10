@@ -1,9 +1,11 @@
 name: Validate BAH BUSINESS
+
 on:
   push:
     branches: [bah-business]
   pull_request:
     branches: [bah-business]
+
 jobs:
   validate:
     runs-on: ubuntu-latest
