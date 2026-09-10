@@ -2,9 +2,14 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="description" content="BAH BUSINESS - Gestion simple de votre activité en FCFA" />
+  <meta name="theme-color" content="#0b6b4f" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <title>BAH BUSINESS</title>
+  <link rel="manifest" href="manifest.webmanifest" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -35,8 +40,7 @@
         <article><p>Stock faible</p><strong id="stat-low">0 produits</strong><small>À réapprovisionner</small></article>
       </section>
       <section class="grid">
-        <article class="panel large"><div class="panel-head"><h2>Ventes récentes</h2><a href="#sales" data-view="sales">Voir tout</a></div><div class="table-wrap"><table><thead><tr><th>Client</th><th>Produit</th><th>Montant</th><th>Statut</th></tr></thead><tbody id="recent-sales"></tbody></table></div></article>
-        <article class="panel"><h2>Stock faible</h2><div class="stock" id="low-stock"></div></article>
+        <article class="panel large"><div class="panel-head"><h2>Ventes récentes</h2><a href="#sales" data-view="sales">Voir tout</a></div><div class="table-wrap"><table><thead><tr><th>Client</th><th>Produit</th><th>Montant</th><th>Statut</th></tr></thead><tbody id="recent-sales"></tbody></table></div></article><article class="panel"><h2>Stock faible</h2><div class="stock" id="low-stock"></div></article>
       </section>
       <section class="panel quick"><h2>Actions rapides</h2><div><button data-action="product">＋ Ajouter un produit</button><button data-action="sale">＋ Enregistrer une vente</button><button data-action="expense">＋ Ajouter une dépense</button><button data-action="client">＋ Nouveau client</button></div></section>
     </div>
